@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SampleSite</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="title">
+      <div>
+        <div class="row">
+          <h1>Sample<span style="color: rgb(161, 159, 159)">Site</span></h1>
+          <img
+            src="images/shopping-cart--v1.png"
+            alt=""
+            srcset=""
+            class="shopping-cart-icon"
+          />
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Cart</h2>
+                  </div>
+                  <div class="modal-body show-order">
+                    <p>Show order</p>
+                    <p>Some other order...</p>
+                  </div>
+                  <div class="modal-footer">
+                    <h3>Checkout</h3>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="shopping-cart-icon">🛒</div> -->
+      </div>
+    </section>
+
+    <section id="slide-img">
+      <div>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img
+              src="images/iphone14pro-digitalmat-gallery-3-202209.png"
+              class="right"
+            />
+            <div class="text">
+              iPhone 14 Pro
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="#" class="buy-now">BUY NOW</a>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <img
+              src="images/iphone14pro-digitalmat-gallery-5-202209.png"
+              class="right"
+            />
+            <div class="text">
+              iPhone 14 Pro
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="#" class="buy-now">BUY NOW</a>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <img
+              src="images/iphone14pro-digitalmat-gallery-4-202209.jfif"
+              class="right"
+            />
+            <div class="text">
+              iPhone 14 Pro
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="#" class="buy-now">BUY NOW</a>
+            </div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <script src="slide.js"></script>
+      </div>
+    </section>
+
+    <section id="product">
+      <div>
+        <div class="flex-container">
+          <div id="list" class="item">
+            <table>
+              <tr>
+                <td colspan="2">
+                  <img
+                    class="product-image image-01"
+                    src="images/iphone14pro-digitalmat-gallery-6-202209.png"
+                    alt=""
+                    srcset=""
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td class="product-name name-01" colspan="2">{name}</td>
+              </tr>
+              <tr>
+                <td class="product-price price-01">{price}</td>
+                <td id="product-01-order" value="">
+                  <a href="#" class="myButton right">order</a>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div id="list" class="item">
+            <table>
+              <tr>
+                <td colspan="2">
+                  <img class="product-image image-02" src="" alt="" srcset="" />
+                </td>
+              </tr>
+              <tr>
+                <td class="product-name name-02" colspan="2">{name}</td>
+              </tr>
+              <tr>
+                <td class="product-price price-02">{price}</td>
+                <td id="product-02-order" value="">
+                  <a href="#" class="myButton right">order</a>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div id="object03">
+            <table>
+              <tr>
+                <td colspan="2">
+                  <img class="product-image image-03" src="" alt="" srcset="" />
+                </td>
+              </tr>
+              <tr>
+                <td class="product-name name-03" colspan="2">{name}</td>
+              </tr>
+              <tr>
+                <td class="product-price price-03">{price}</td>
+                <td id="product-03-order" value="">
+                  <a href="#" class="myButton right">order</a>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <table>
+              <tr>
+                <td colspan="2">
+                  <img class="product-image image-04" src="" alt="" srcset="" />
+                </td>
+              </tr>
+              <tr>
+                <td class="product-name name-04" colspan="2">{name}</td>
+              </tr>
+              <tr>
+                <td class="product-price price-04">{price}</td>
+                <td id="product-04-order" value="">
+                  <a href="#" class="myButton right">order</a>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="flex-container">
+          <div id="list" class="item">
+            <table>
+              <tr>
+                <td colspan="2">
+                  <img class="product-image image-05" src="" alt="" srcset="" />
+                </td>
+              </tr>
+              <tr>
+                <td class="product-name name-05" colspan="2">{name}</td>
+              </tr>
+              <tr>
+                <td class="product-price price-05">{price}</td>
+                <td id="product-01-order" value="">
+                  <a href="#" class="myButton right">order</a>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div id="list" class="item">
+            <table>
+              <tr>
+                <td colspan="2">
+                  <img class="product-image image-06" src="" alt="" srcset="" />
+                </td>
+              </tr>
+              <tr>
+                <td class="product-name name-06" colspan="2">{name}</td>
+              </tr>
+              <tr>
+                <td class="product-price price-06">{price}</td>
+                <td id="product-06-order" value="">
+                  <a href="#" class="myButton right">order</a>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div id="object03">
+            <table>
+              <tr>
+                <td colspan="2">
+                  <img class="product-image image-07" src="" alt="" srcset="" />
+                </td>
+              </tr>
+              <tr>
+                <td class="product-name name-07" colspan="2">{name}</td>
+              </tr>
+              <tr>
+                <td class="product-price price-07">{price}</td>
+                <td id="product-07-order" value="">
+                  <a href="#" class="myButton right">order</a>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <table>
+              <tr>
+                <td colspan="2">
+                  <img class="product-image image-08" src="" alt="" srcset="" />
+                </td>
+              </tr>
+              <tr>
+                <td class="product-name name-08" colspan="2">{name}</td>
+              </tr>
+              <tr>
+                <td class="product-price price-08">{price}</td>
+                <td id="product-08-order" value="">
+                  <a href="#" class="myButton right">order</a>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <script src="index.js"></script>
+      <script src="click.js"></script>
+    </section>
+  </body>
+  <footer>
+    <p>© Copyright 2019 FED Basic Assessment.</p>
+  </footer>
+</html>
